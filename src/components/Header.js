@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import { Container } from './styles/Header.styled'; 
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <Container>
+        Luart Gallery
+    </Container>
   )
 }
 
