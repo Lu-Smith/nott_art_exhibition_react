@@ -1,8 +1,12 @@
 import React from 'react'
+import { Container, Description, Title } from './styles/Main.styled'
 
 const Main = () => {
   return (
-    <div>Main</div>
+    <Container>
+        <Title>Search though time</Title>
+        <Description>We are leaving in the endless loop</Description>
+    </Container>
   )
 }
 
