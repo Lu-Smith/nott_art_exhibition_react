@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Logo, Title } from './styles/Header.styled'; 
+import { Container, Logo, Motto, Title } from './styles/Header.styled'; 
 import LogoImg from '../images/logo.png';
 
 const Header = () => {
@@ -7,6 +7,7 @@ const Header = () => {
     <Container>
         <Logo src={LogoImg} alt='Luna Smith Art logo'/>
         <Title>Nott</Title>
+        <Motto>connect the past, the present and the future</Motto>
     </Container>
   )
 }
