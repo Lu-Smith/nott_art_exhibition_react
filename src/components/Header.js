@@ -1,10 +1,12 @@
 import React from 'react';
-import { Container } from './styles/Header.styled'; 
+import { Container, Logo, Title } from './styles/Header.styled'; 
+import LogoImg from '../images/logo.png';
 
 const Header = () => {
   return (
     <Container>
-        Luart Gallery
+        <Logo src={LogoImg} alt='Luna Smith Art logo'/>
+        <Title>Nott</Title>
     </Container>
   )
 }
