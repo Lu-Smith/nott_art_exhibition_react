@@ -1,7 +1,6 @@
 import React from 'react';
 import Nott1 from '../images/The Warrior of Shattered Tears by Luna Smith.jpg';
-import { Image, Title } from './styles/Gallery.styled';
-import { Container } from './styles/Main.styled';
+import { Image, Title, Container } from './styles/Gallery.styled';
 
 const Gallery = () => {
   return (
