@@ -5,15 +5,8 @@ import content from '../helpers/imagesList';
 const Gallery = () => {
   return (
     <Container>
-        {content.map((image, index) => {
-            return (
-                <div key={index}>
-                    <Image src={image.src} alt={image.alt} />
-                    <Title>{image.title}</Title>
-                </div>
-            )
-        })}
-       
+        <Image src={content[0].src} alt={content[0].alt} />
+        <Title>{content[0].title}</Title>
     </Container>
   )
 }
