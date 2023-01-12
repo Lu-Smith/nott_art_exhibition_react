@@ -6,7 +6,7 @@ height: 70vh;
 display: flex;
 align-items: center;
 justify-content: space-evenly;
-background: radial-gradient(circle at 18.7% 37.8%, rgb(225, 234, 238) 0%, rgb(250, 250, 250) 90%);
+background: rgb(250, 250, 250);
 `
 export const Title = styled.h2`
 font-size: 30px;

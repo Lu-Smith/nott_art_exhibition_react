@@ -1,13 +1,11 @@
 import React from 'react'
-import { Contact, Container, Logo, Motto } from './styles/Footer.styled';
-import LogoImg from '../images/logo.png';
+import { Contact, Container, Motto } from './styles/Footer.styled';
 
 const Footer = () => {
   return (
     <Container>
-        <Logo src={LogoImg} alt='Luna Smith Art logo'/>
-        <Contact>Contact</Contact>
-        <Motto>everything already happened</Motto>
+        <Contact>Buy art</Contact>
+        <Motto>the most important moment in time is now</Motto>
     </Container>
   )
 }
