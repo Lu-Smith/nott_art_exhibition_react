@@ -1,12 +1,19 @@
 import React from 'react';
-import Nott1 from '../images/The Warrior of Shattered Tears by Luna Smith.jpg';
 import { Image, Title, Container } from './styles/Gallery.styled';
+import content from '../helpers/imagesList';
 
 const Gallery = () => {
   return (
     <Container>
-        <Image src={Nott1} alt='Nott1' />
-        <Title> Nott1</Title>
+        {content.map((image, index) => {
+            return (
+                <div key={index}>
+                    <Image src={image.src} alt={image.alt} />
+                    <Title>{image.title}</Title>
+                </div>
+            )
+        })}
+       
     </Container>
   )
 }
