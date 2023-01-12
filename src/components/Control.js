@@ -1,5 +1,6 @@
-import React from 'react'
-import { Button, Scroll } from './styles/Contol.styled'
+import React from 'react';
+import { Button, Scroll } from './styles/Contol.styled';
+import content from '../helpers/imagesList';
 
 const Control = () => {
   return (
@@ -15,7 +16,7 @@ const Control = () => {
           arrow_forward_ios
         </span>
     </Button>
-    <Scroll>-1-</Scroll>
+    <Scroll>-{content[0].id}-</Scroll>
     </>
   )
 }
