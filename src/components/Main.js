@@ -9,8 +9,7 @@ const Main = () => {
         <Title>Search though time</Title>
         <Gallery />
         <Control />
-
-        <Description>We are leaving in the endless loop</Description>
+        <Description>We live in the endless loop of wonders.</Description>
     </Container>
   )
 }
