@@ -8,6 +8,13 @@ export const Button = styled.button`
  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
  border: none;
  background-color: whitesmoke;
+
+ .material-symbols-outlined {
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    left: 5px;
+ }
 `
 export const Scroll = styled.div`
 font-size: 25px;
