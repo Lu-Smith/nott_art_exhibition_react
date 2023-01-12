@@ -11,7 +11,9 @@ background: rgb(250, 250, 250);
 `
 export const Title = styled.h2`
 font-size: 30px;
+margin: 20px 0;
 `
 export const Description = styled.h3`
 font-size: 20px;
+font-style: italic;
 `
