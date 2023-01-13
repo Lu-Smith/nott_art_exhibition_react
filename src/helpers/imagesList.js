@@ -9,7 +9,7 @@ const content = [
         id: 1,
         title: "Nott",
         alt: "Nott art collection - an oil painitng from Nott collection by Luna Smith",
-        description: "",
+        description: "We live in the endless loop of wonders.",
         src: Nott1,
     },
     {

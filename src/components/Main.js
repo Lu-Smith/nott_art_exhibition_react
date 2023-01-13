@@ -9,8 +9,8 @@ const Main = (props) => {
     <Container>
         <Title>Search though time</Title>
         <Gallery image={props.image}/>
-        <Control />
-        <Description>We live in the endless loop of wonders.</Description>
+        <Control image={props.image.id} />
+        <Description>{props.image.description}</Description>
     </Container>
   )
 }
