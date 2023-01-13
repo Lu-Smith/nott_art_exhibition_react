@@ -18,6 +18,9 @@ test('it should have a correct title', () => {
   const title = screen.getByText("Search though time");
   expect(title).toBeInTheDocument();
 
+  const image = screen.getByAltText("The Warrior of Shattered Tears - an oil painitng from Nott collection by Luna Smith");
+  expect(image).toBeInTheDocument();
+
   const button = screen.getByText("Scroll to explore");
   expect(button).toBeInTheDocument();
 
