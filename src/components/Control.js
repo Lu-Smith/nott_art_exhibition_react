@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Scroll } from './styles/Contol.styled';
 import content from '../helpers/imagesList';
 
-const Control = () => {
+const Control = (props) => {
   return (
     <>
     <Button>
@@ -16,7 +16,7 @@ const Control = () => {
           arrow_forward_ios
         </span>
     </Button>
-    <Scroll>-{content[0].id}-</Scroll>
+    <Scroll>-{props.id}-</Scroll>
     </>
   )
 }
