@@ -16,6 +16,13 @@ const Main = (props) => {
           <Description description={props.image.description} />
       </Container>
     )
+  } else if (props.image.title === "") {
+    return (
+      <Container>
+          <Description description={props.image.description} />
+          <Control id={props.image.id} />
+      </Container>
+    )
   } else {
     return (
       <Container>

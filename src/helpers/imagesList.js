@@ -16,6 +16,13 @@ const content = [
         id: 2,
         title: "The Warrior of Shattered Tears",
         alt: "The Warrior of Shattered Tears - an oil painitng from Nott collection by Luna Smith",
+        description:  [],
+        src: Nott1,
+    },
+    {
+        id: 3,
+        title: "",
+        alt: "",
         description:  ["Blue tears dry up and form bricks", 
                        "Mothers create, relinquish survival tricks", 
                        "Pain, death, fear, starvation expose us", 
@@ -28,10 +35,10 @@ const content = [
                        "It is a time of change the terror nest",
                         "There is no time for harmony and ingenuity", 
                         "It is time to start a new enhanced reality"],
-        src: Nott1,
+        src: "",
     },
     {
-        id: 3,
+        id: 4,
         title: "The Battle of Endless Seas",
         alt: "The Battle of Endless Seas - an oil painitng from Nott collection by Luna Smith",
         description: ["We are moving forward",
@@ -49,7 +56,7 @@ const content = [
         src: Nott3,
     },
     {
-        id: 4,
+        id: 5,
         title: "The Soothing Wind of Longing",
         alt: "The Soothing Wind of Longing - an oil painitng from Nott collection by Luna Smith",
         description: ["Our greatest strength is peace",
@@ -61,7 +68,7 @@ const content = [
         src: Nott4,
     },
     {
-        id: 5,
+        id: 6,
         title: "Awakening from the Sleep of Fear",
         alt: "Awakening from the Sleep of Fear- an oil painitng from Nott collection by Luna Smith",
         description: ["A candle in the dark",
@@ -76,7 +83,7 @@ const content = [
         src: Nott2,
     },
     {
-        id: 6,
+        id: 7,
         title: "Dreams of a Future Self",
         alt: "Dreams of a Future Self - an oil painitng from Nott collection by Luna Smith",
         description: ["Trillions of tiny pieces enchanted in the past",
