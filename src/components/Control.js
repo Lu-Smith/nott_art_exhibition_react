@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button, Scroll } from './styles/Contol.styled';
-import content from '../helpers/imagesList';
 
 const Control = (props) => {
   return (
