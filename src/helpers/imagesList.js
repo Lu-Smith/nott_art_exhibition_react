@@ -7,7 +7,7 @@ import Nott5 from '../images/Dreams of a Future Self by Luna Smith.jpg';
 const content = [
     {
         id: 1,
-        title: "Nott",
+        title: "",
         alt: "Nott art collection - an oil painitng from Nott collection by Luna Smith",
         description: [],
         src: Nott1,
