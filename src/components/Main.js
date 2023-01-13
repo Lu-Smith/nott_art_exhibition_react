@@ -1,7 +1,8 @@
 import React from 'react';
 import Control from './Control';
 import Gallery from './Gallery';
-import { Container, Description, Title } from './styles/Main.styled';
+import Description from './Description';
+import { Container, Title } from './styles/Main.styled';
 
 
 const Main = (props) => {
@@ -9,8 +10,8 @@ const Main = (props) => {
     <Container>
         <Title>Search though time</Title>
         <Gallery image={props.image}/>
-        <Control image={props.image.id} />
-        <Description>{props.image.description}</Description>
+        <Control id={props.image.id} />
+        <Description description={props.image.description} />
     </Container>
   )
 }
