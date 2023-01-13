@@ -8,9 +8,11 @@ function App() {
   return (
     <div className="App">
        <Header />
-       {content.map((image) => {
-        return <Main key={image.id} image={image} />
-       })}
+       <div className='galleryContainer'>
+          {content.map((image) => {
+            return <Main key={image.id} image={image} />
+          })}
+       </div>
        <Footer />
     </div>
   );
