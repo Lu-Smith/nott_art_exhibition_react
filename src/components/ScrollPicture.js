@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import { Container } from './styles/ScrollPicture.styled';
 
 const ScrollPicture = () => {
   return (
-    <div>ScrollPicture</div>
+    <Container>
+      <h3>1....5....10....15....20</h3>
+    </Container>
   )
 }
 
