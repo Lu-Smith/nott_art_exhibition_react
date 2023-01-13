@@ -15,8 +15,14 @@ test('it should have a correct header', () => {
 
 test('it should have a correct title', () => {
   render(<App />);
-  const element = screen.getByText("Search though time");
-  expect(element).toBeInTheDocument();
+  const title = screen.getByText("Search though time");
+  expect(title).toBeInTheDocument();
+
+  const button = screen.getByText("Scroll to explore");
+  expect(button).toBeInTheDocument();
+
+  const motto = screen.getByText("We live in the endless loop of wonders.");
+  expect(motto).toBeInTheDocument();
 });
 
 
