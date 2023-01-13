@@ -1,12 +1,12 @@
 import React from 'react';
 import { Image, Title, Container } from './styles/Gallery.styled';
-import content from '../helpers/imagesList';
 
-const Gallery = () => {
+
+const Gallery = (props) => {
   return (
     <Container>
-        <Image src={content[0].src} alt={content[0].alt} />
-        <Title>{content[0].title}</Title>
+        <Image src={props.image.src} alt={props.image.alt} />
+        <Title>{props.image.title}</Title>
     </Container>
   )
 }

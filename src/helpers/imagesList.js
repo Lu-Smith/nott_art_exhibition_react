@@ -7,17 +7,17 @@ import Nott5 from '../images/Dreams of a Future Self by Luna Smith.jpg';
 const content = [
     {
         id: 1,
-        title: "The Warrior of Shattered Tears",
-        alt: "The Warrior of Shattered Tears - an oil painitng from Nott collection by Luna Smith",
-        description: "A candle in the dark<br />Spark by spark lighting the corner of infinite space. There are invariably unreachable horizons",
+        title: "Nott",
+        alt: "Nott art collection - an oil painitng from Nott collection by Luna Smith",
+        description: "",
         src: Nott1,
     },
     {
         id: 2,
-        title: "Awakening from the Sleep of Fear",
-        alt: "Awakening from the Sleep of Fear- an oil painitng from Nott collection by Luna Smith",
+        title: "The Warrior of Shattered Tears",
+        alt: "The Warrior of Shattered Tears - an oil painitng from Nott collection by Luna Smith",
         description: "A candle in the dark<br />Spark by spark lighting the corner of infinite space. There are invariably unreachable horizons",
-        src: Nott2,
+        src: Nott1,
     },
     {
         id: 3,
@@ -35,6 +35,13 @@ const content = [
     },
     {
         id: 5,
+        title: "Awakening from the Sleep of Fear",
+        alt: "Awakening from the Sleep of Fear- an oil painitng from Nott collection by Luna Smith",
+        description: "A candle in the dark<br />Spark by spark lighting the corner of infinite space. There are invariably unreachable horizons",
+        src: Nott2,
+    },
+    {
+        id: 6,
         title: "Dreams of a Future Self",
         alt: "Dreams of a Future Self - an oil painitng from Nott collection by Luna Smith",
         description: "A candle in the dark<br />Spark by spark lighting the corner of infinite space. There are invariably unreachable horizons",
