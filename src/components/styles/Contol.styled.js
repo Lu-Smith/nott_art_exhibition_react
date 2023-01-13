@@ -16,8 +16,3 @@ export const Button = styled.button`
     left: 5px;
  }
 `
-export const Scroll = styled.div`
-font-size: 25px;
-color: #04E0DB;
-margin-bottom: 10px;
-`
