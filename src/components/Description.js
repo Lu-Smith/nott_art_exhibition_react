@@ -1,8 +1,9 @@
 import React from 'react'
+import { Container } from './styles/Description.styled'
 
 const Description = (props) => {
   return (
-    <>
+    <Container>
     <div>{props.description[0]}</div>
     <div>{props.description[1]}</div>
     <div>{props.description[2]}</div>
@@ -19,8 +20,7 @@ const Description = (props) => {
     <div>{props.description[13]}</div>
     <div>{props.description[14]}</div>
     <div>{props.description[15]}</div>
-    </>
-
+    </Container>
   )
 }
 

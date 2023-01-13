@@ -8,6 +8,7 @@ export const Button = styled.button`
  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
  border: none;
  background-color: whitesmoke;
+ width: 100vw;
 
  .material-symbols-outlined {
     font-size: 20px;
