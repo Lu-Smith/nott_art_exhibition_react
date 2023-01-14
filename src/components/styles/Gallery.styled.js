@@ -6,7 +6,6 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 width: 100vw;
-height: 75%;
 padding: 30px;
 `
 export const Image = styled.img`
