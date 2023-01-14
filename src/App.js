@@ -1,20 +1,20 @@
-import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Main from './components/Main';
+import { GalleryContainer, App } from './components/styles/App.styled';
 import content from './helpers/imagesList';
 
 function App() {
   return (
-    <div className="App">
+    <App>
        <Header />
-       <div className='galleryContainer'>
+       <GalleryContainer>
           {content.map((image) => {
             return <Main key={image.id} image={image} />
           })}
-       </div>
-       <Footer />
-    </div>
+      </GalleryContainer>
+      <Footer />
+    </App>
   );
 }
 
