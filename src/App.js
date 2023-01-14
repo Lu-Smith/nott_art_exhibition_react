@@ -1,12 +1,12 @@
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Main from './components/Main';
-import { GalleryContainer, App } from './components/styles/App.styled';
+import { GalleryContainer, AppContainer } from './components/styles/App.styled';
 import content from './helpers/imagesList';
 
 function App() {
   return (
-    <App>
+    <AppContainer>
        <Header />
        <GalleryContainer>
           {content.map((image) => {
@@ -14,7 +14,7 @@ function App() {
           })}
       </GalleryContainer>
       <Footer />
-    </App>
+    </AppContainer>
   );
 }
 
