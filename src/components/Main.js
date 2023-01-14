@@ -5,7 +5,15 @@ import Description from './Description';
 import { Container, Title } from './styles/Main.styled';
 
 
+
+
 const Main = (props) => {
+
+  const handleClick = () => {
+    if(props.image.id < props.image.length) {
+      props.image.id += 1;
+    }
+  }
 
   if (props.image.id === 1) {
     return (
@@ -20,7 +28,7 @@ const Main = (props) => {
     return (
       <Container>
           <Description description={props.image.description} />
-          <Control id={props.image.id} />
+          <Control id={props.image.id} handleClick={handleClick} />
       </Container>
     )
   } else {
