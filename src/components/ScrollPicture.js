@@ -4,10 +4,14 @@ import content from '../helpers/imagesList';
 
 const ScrollPicture = () => {   
 
+  const handleClick = () => {
+    alert("Hello");
+  }
+
   return (
     <Container>
       {content.map((page) => {
-              return <Page key={page.id}>{page.id}</Page>
+              return <Page key={page.id} onClick={handleClick}>{page.id}</Page>
             })}
     </Container>
   )
