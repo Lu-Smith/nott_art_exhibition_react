@@ -6,6 +6,8 @@ import content from './helpers/imagesList';
 import { ThemeProvider } from 'styled-components';
 import Control from './components/Control';
 import ScrollPicture from './components/ScrollPicture';
+import { Provider } from 'react-redux';
+import { store } from './app/store';
 
 const theme = {
   light: {
@@ -19,26 +21,29 @@ const theme = {
 }
 
 function App() {
+
   return (
-    <ThemeProvider theme={theme}>
-      <AppContainer>
-          <HeaderContainer>
-              <Header />
-          </HeaderContainer>
-          <GalleryContainer>
-              {content.map((image) => {
-                return <Main key={image.id} image={image} />
-              })}
-          </GalleryContainer>
-          <ControlContainer>
-              <Control />
-              <ScrollPicture />
-          </ControlContainer>
-          <FooterContainer>
-              <Footer />
-          </FooterContainer>
-      </AppContainer>
-    </ThemeProvider>
+    <Provider store={store}>
+      <ThemeProvider theme={theme}>
+        <AppContainer>
+            <HeaderContainer>
+                <Header />
+            </HeaderContainer>
+            <GalleryContainer>
+                {content.map((image) => {
+                  return <Main key={image.id} image={image} />
+                })}
+            </GalleryContainer>
+            <ControlContainer>
+                <Control />
+                <ScrollPicture />
+            </ControlContainer>
+            <FooterContainer>
+                <Footer />
+            </FooterContainer>
+        </AppContainer>
+      </ThemeProvider>
+    </Provider>
   );
 }
 
