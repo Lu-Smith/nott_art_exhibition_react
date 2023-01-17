@@ -36,7 +36,7 @@ function App() {
             </GalleryContainer>
             <ControlContainer>
                 <Control />
-                <ScrollPicture />
+                <ScrollPicture images={content}/>
             </ControlContainer>
             <FooterContainer>
                 <Footer />
