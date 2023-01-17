@@ -7,7 +7,6 @@ import { Container, Title } from './styles/Main.styled';
 
 const Main = (props) => {
 
-
   if (props.image.id === 1) {
     return (
       <Container id={props.image.name} >
