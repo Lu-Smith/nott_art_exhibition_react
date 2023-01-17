@@ -1,5 +1,4 @@
 import React from 'react';
-import ScrollPicture from './ScrollPicture';
 import { Button, Container} from './styles/Contol.styled';
 
 
@@ -18,7 +17,6 @@ const Control = (props) => {
             arrow_forward_ios
           </span>
       </Button>
-      <ScrollPicture id={props.id}/>
     </Container>
   )
 }

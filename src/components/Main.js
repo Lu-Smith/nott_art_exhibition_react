@@ -1,5 +1,4 @@
-import React, {useRef} from 'react';
-import Control from './Control';
+import React from 'react';
 import Gallery from './Gallery';
 import Description from './Description';
 import { Container, Title } from './styles/Main.styled';
@@ -15,7 +14,6 @@ const Main = (props) => {
         {props.image.id}
          <Title>Search though time</Title>
           <Gallery image={props.image}/>
-          
           <Description description={props.image.description} />
       </Container>
     )
@@ -24,7 +22,6 @@ const Main = (props) => {
       <Container id={props.image.name} >
         {props.image.id}
           <Description description={props.image.description} />
-       
       </Container>
     )
   } else {
@@ -32,7 +29,6 @@ const Main = (props) => {
       <Container id={props.image.id} >
         {props.image.name}
           <Gallery image={props.image}/>
-  
           <Description description={props.image.description} />
       </Container>
     )
