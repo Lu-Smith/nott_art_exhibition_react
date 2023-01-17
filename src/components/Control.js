@@ -18,7 +18,7 @@ const Control = (props) => {
             arrow_forward_ios
           </span>
       </Button>
-      <ScrollPicture image={props.image}/>
+      <ScrollPicture id={props.id}/>
     </Container>
   )
 }
