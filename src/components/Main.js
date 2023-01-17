@@ -6,12 +6,12 @@ import { Container, Title } from './styles/Main.styled';
 
 
 
-
 const Main = (props) => {
 
   if (props.image.id === 1) {
     return (
-      <Container>
+      <Container id={props.image.name}>
+        {props.image.id}
          <Title>Search though time</Title>
           <Gallery image={props.image}/>
           <Control id={props.image.id} />
@@ -20,16 +20,18 @@ const Main = (props) => {
     )
   } else if (props.image.title === "") {
     return (
-      <Container>
+      <Container id={props.image.name}>
+        {props.image.id}
           <Description description={props.image.description} />
           <Control id={props.image.id} />
       </Container>
     )
   } else {
     return (
-      <Container>
+      <Container id={props.image.id}>
+        {props.image.name}
           <Gallery image={props.image}/>
-          <Control id={props.image.id} />
+          <Control image={props.image} />
           <Description description={props.image.description} />
       </Container>
     )

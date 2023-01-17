@@ -7,7 +7,7 @@ export const AppContainer = styled.div`
   
 export const GalleryContainer = styled.div`
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     flex-wrap: nowrap;

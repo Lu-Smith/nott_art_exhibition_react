@@ -11,6 +11,7 @@ const content = [
         alt: "Nott art collection - an oil painitng from Nott collection by Luna Smith",
         description: [],
         src: Nott1,
+        name: "title"
     },
     {
         id: 2,
@@ -18,6 +19,7 @@ const content = [
         alt: "",
         description: ["We live in the endless loop of wonders."],
         src: "",
+        name: "page1"
     },
     {
         id: 3,
@@ -25,6 +27,7 @@ const content = [
         alt: "The Warrior of Shattered Tears - an oil painitng from Nott collection by Luna Smith",
         description:  [],
         src: Nott1,
+        name: "page2"
     },
     {
         id: 4,
@@ -43,6 +46,7 @@ const content = [
                         "There is no time for harmony and ingenuity", 
                         "It is time to start a new enhanced reality"],
         src: "",
+        name: "page3"
     },
     {
         id: 5,
@@ -50,6 +54,7 @@ const content = [
         alt: "The Battle of Endless Seas - an oil painitng from Nott collection by Luna Smith",
         description: [],
         src: Nott3,
+        name: "page4"
     },
     {
         id: 6,
@@ -68,6 +73,7 @@ const content = [
                        "We can only start over",
                        "From the moment we choose"],
         src: "",
+        name: "page5"
     },
     {
         id: 7,
@@ -75,6 +81,7 @@ const content = [
         alt: "The Soothing Wind of Longing - an oil painitng from Nott collection by Luna Smith",
         description: [],
         src: Nott4,
+        name: "page6"
     },
     {
         id: 8,
@@ -87,6 +94,7 @@ const content = [
                       "Our most potent success is unity",
                       "when we evaluate, plan and evolve"],
         src: "",
+        name: "page7"
     },
     {
         id: 9,
@@ -94,6 +102,7 @@ const content = [
         alt: "Awakening from the Sleep of Fear- an oil painitng from Nott collection by Luna Smith",
         description: [],
         src: Nott2,
+        name: "page8"
     },
     {
         id: 10,
@@ -109,6 +118,7 @@ const content = [
                       "A century begins with novel customs",
                       "A day delivers new reality"],
         src: "",
+        name: "page9"
     },
     {
         id: 11,
@@ -116,6 +126,7 @@ const content = [
         alt: "Dreams of a Future Self - an oil painitng from Nott collection by Luna Smith",
         description: [],
         src: Nott5,
+        name: "page10"
     },
     {
         id: 12,
@@ -130,6 +141,7 @@ const content = [
                       "Spirits like us - our astral doubles",
                       "Eternally strive to withstand, to never give up"],
         src: "",
+        name: "page11"
     }
 ]
 

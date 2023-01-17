@@ -1,10 +1,17 @@
 import React from 'react';
-import { Container } from './styles/ScrollPicture.styled';
+import { Container, Page } from './styles/ScrollPicture.styled';
+import content from '../helpers/imagesList';
 
-const ScrollPicture = () => {
+const ScrollPicture = (props) => {
+    const pages = props.image;
+
+
+
   return (
     <Container>
-      <h3>1....5....10....15....20</h3>
+      {content.map((page) => {
+              return <Page >{page.id}</Page>
+            })}
     </Container>
   )
 }
