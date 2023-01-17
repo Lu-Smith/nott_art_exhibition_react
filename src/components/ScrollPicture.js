@@ -4,7 +4,7 @@ import { changeSlide } from '../features/slideSlice';
 import { useDispatch } from 'react-redux';
 
 const ScrollPicture = (props) => {   
-  console.log(props);
+ 
 
   const dispatch = useDispatch();
 

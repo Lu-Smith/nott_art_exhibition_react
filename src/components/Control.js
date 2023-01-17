@@ -1,12 +1,16 @@
 import React from 'react';
 import { Button, Container} from './styles/Contol.styled';
+import { changeSlide } from '../features/slideSlice';
+import { useDispatch } from 'react-redux';
 
 
 const Control = (props) => {
 
+  const dispatch = useDispatch();
+
   return (
     <Container>
-      <Button>
+      <Button onClick={()=>dispatch(changeSlide())}>
           <span>
             Scroll to explore 
           </span>

@@ -8,10 +8,8 @@ export const slideSlice = createSlice({
     name: "slides",
     initialState,
     reducers: {
-         changeSlide: (state, action) => {
-                if(state.id !== action.payload.id) {
-                     state.id.push(action.payload.id)
-                }
+         changeSlide: (state) => {
+                state.value += 1;
          }
 },
     });

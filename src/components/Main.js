@@ -8,6 +8,8 @@ const Main = (props) => {
 
   const slideChoice = useSelector((state) => state.slides.value);
 
+  console.log(props.image.id);
+
   if (slideChoice === props.image.id) {
       if (props.image.id === 1) {
         return (
