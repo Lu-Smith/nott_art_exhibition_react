@@ -12,4 +12,9 @@ font-size: 18px;
 color: grey;
 padding: 2px 8px;
 border: none;
+
+&:active, &:hover {
+    background-color: blue;
+    color: white;
+}
 `
