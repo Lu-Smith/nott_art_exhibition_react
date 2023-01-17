@@ -31,12 +31,12 @@ function App() {
             </HeaderContainer>
             <GalleryContainer>
                 {content.map((image) => {
-                  return <Main key={image.id} image={image} />
+                  return <Main key={image.id} image={image} length={content.length} />
                 })}
             </GalleryContainer>
             <ControlContainer>
                 <Control />
-                <ScrollPicture images={content}/>
+                <ScrollPicture images={content} length={content.length} />
             </ControlContainer>
             <FooterContainer>
                 <Footer />

@@ -10,10 +10,13 @@ export const slideSlice = createSlice({
     reducers: {
          changeSlide: (state) => {
                 state.value += 1;
+         },
+         goToSlide: (state, action) => {
+            state.value = action.payload;
          }
 },
     });
 
-export const { changeSlide } = slideSlice.actions;
+export const { changeSlide, goToSlide } = slideSlice.actions;
 
 export default slideSlice.reducer;

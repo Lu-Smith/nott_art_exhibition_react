@@ -4,13 +4,19 @@ import { changeSlide } from '../features/slideSlice';
 import { useDispatch } from 'react-redux';
 
 
-const Control = (props) => {
+const Control = () => {
 
   const dispatch = useDispatch();
 
+  const handleScroll = (event) => {
+     event.preventDefault();
+      event.stopPropagation();
+      dispatch(changeSlide())
+    } ;
+
   return (
     <Container>
-      <Button onClick={()=>dispatch(changeSlide())}>
+      <Button onClick={handleScroll}>
           <span>
             Scroll to explore 
           </span>
