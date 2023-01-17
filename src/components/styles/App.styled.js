@@ -15,7 +15,7 @@ export const HeaderContainer = styled.div`
    width: 100vw;
 `
 export const GalleryContainer = styled.div`
-    height: 70vh;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     align-content: center;
