@@ -1,4 +1,21 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+export const slideInFromLeft = keyframes`
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+`;
+
+export const ImageContainer = styled.div`
+  position: absolute;
+  width: 100%;
+  animation: ${slideInFromLeft} 1s ease-in-out;
+`;
+
+
 
 export const AppContainer = styled.div`
     width: 100vw;
