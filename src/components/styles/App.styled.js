@@ -5,29 +5,30 @@ export const slideInFromLeft = keyframes`
     transform: translateX(-100%);
     opacity: 0;
   }
-  20% {
-    transform: translateX(-20%);
+  25% {
+    transform: translateX(-50%);
     opacity: 1;
   }
-  70% {
-    transform: translateX(-20%);
+  60% {
+    transform: translateX(-50%);
     opacity: 1;
   }
-  85% {
+  75% {
     transform: translateX(100%);
     opacity: 1;
   }
   100% {
     transform: translateX(100%);
-    opacity: 1;
+    opacity: 0;
   }
 `;
 
 export const ImageContainer = styled.div`
   position: absolute;
-  width: 100%;
+  width: 50%;
   top: 20%;
-  animation: ${slideInFromLeft} 10s ease;
+  transform: translate(-50%, -50%);
+  animation: ${slideInFromLeft} 12s ease;
 `;
 
 

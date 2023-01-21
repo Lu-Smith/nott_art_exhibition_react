@@ -24,7 +24,7 @@ function App() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentIndex((currentIndex + 1) % content.length);
-    }, 6000);
+    }, 8000);
     return () => clearInterval(intervalId);
   }, [currentIndex]);
 
