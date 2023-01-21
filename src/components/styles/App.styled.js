@@ -26,6 +26,7 @@ export const slideInFromLeft = keyframes`
 export const ImageContainer = styled.div`
   position: absolute;
   width: 50%;
+  height: 100%;
   top: 20%;
   transform: translate(-50%, -50%);
   animation: ${slideInFromLeft} 13s ease;

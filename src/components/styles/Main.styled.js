@@ -5,9 +5,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-background: rgb(250, 250, 250);
 `
 export const Title = styled.h2`
-font-size: 30px;
+font-size: 50px;
 margin: 20px 0;
 `

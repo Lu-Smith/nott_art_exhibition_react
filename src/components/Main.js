@@ -11,22 +11,18 @@ const Main = (props) => {
             <Container id={props.image.id}>
                 <Title>Search though time</Title>
                 <Gallery image={props.image}/>
-                <Description description={props.image.description} />
             </Container>
           )
         } else if (props.image.id % 2 === 0) {
           return (
             <Container id={props.image.id} >
-                <Description description={props.image.description} />
-              
+                <Description description={props.image.description} /> 
             </Container>
           )
         } else {
           return (
             <Container id={props.image.id}>
-                <Gallery image={props.image}/>
-                <Description description={props.image.description} />
-              
+                <Gallery image={props.image}/>              
             </Container>
           )
         }  
