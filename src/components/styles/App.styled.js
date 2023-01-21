@@ -9,13 +9,13 @@ export const slideInFromLeft = keyframes`
     transform: translateX(-50%);
     opacity: 1;
   }
-  60% {
+  70% {
     transform: translateX(-50%);
     opacity: 1;
   }
-  75% {
+  85% {
     transform: translateX(100%);
-    opacity: 1;
+    opacity: 0;
   }
   100% {
     transform: translateX(100%);
@@ -28,7 +28,7 @@ export const ImageContainer = styled.div`
   width: 50%;
   top: 20%;
   transform: translate(-50%, -50%);
-  animation: ${slideInFromLeft} 12s ease;
+  animation: ${slideInFromLeft} 13s ease;
 `;
 
 
