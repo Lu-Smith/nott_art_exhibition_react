@@ -1,18 +1,33 @@
 import styled, { keyframes } from 'styled-components';
 
 export const slideInFromLeft = keyframes`
-  from {
+  0% {
     transform: translateX(-100%);
+    opacity: 0;
   }
-  to {
-    transform: translateX(0);
+  20% {
+    transform: translateX(-20%);
+    opacity: 1;
+  }
+  70% {
+    transform: translateX(-20%);
+    opacity: 1;
+  }
+  85% {
+    transform: translateX(100%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 1;
   }
 `;
 
 export const ImageContainer = styled.div`
   position: absolute;
   width: 100%;
-  animation: ${slideInFromLeft} 1s ease-in-out;
+  top: 20%;
+  animation: ${slideInFromLeft} 10s ease;
 `;
 
 
@@ -38,10 +53,6 @@ export const GalleryContainer = styled.div`
     align-content: center;
     justify-content: flex-start;
     flex-wrap: nowrap;
-
-    div {
-        margin-top: 50px ;
-    }
 `
 export const FooterContainer = styled.div`
     height: 15vh;
