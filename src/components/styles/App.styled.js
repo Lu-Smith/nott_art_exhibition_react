@@ -21,13 +21,11 @@ export const GalleryContainer = styled.div`
     align-content: center;
     justify-content: flex-start;
     flex-wrap: nowrap;
-`
-export const ControlContainer = styled.div`
-    height: 15vh;
-    position: fixed;
-    bottom: 60px;
-`
 
+    div {
+        margin-top: 50px ;
+    }
+`
 export const FooterContainer = styled.div`
     height: 15vh;
     width: 100vw;

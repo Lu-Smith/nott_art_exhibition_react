@@ -1,13 +1,10 @@
+import React, {useState, useEffect} from 'react';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Main from './components/Main';
-import { GalleryContainer, AppContainer, ControlContainer, HeaderContainer, FooterContainer } from './components/styles/App.styled';
+import { GalleryContainer, AppContainer, HeaderContainer, FooterContainer } from './components/styles/App.styled';
 import content from './helpers/imagesList';
 import { ThemeProvider } from 'styled-components';
-import Control from './components/Control';
-import ScrollPicture from './components/ScrollPicture';
-import { Provider } from 'react-redux';
-import { store } from './app/store';
 
 const theme = {
   light: {
@@ -22,28 +19,36 @@ const theme = {
 
 function App() {
 
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentIndex((currentIndex + 1) % content.length);
+    }, 3000);
+    return () => clearInterval(intervalId);
+  }, [currentIndex]);
+
+
   return (
-    <Provider store={store}>
       <ThemeProvider theme={theme}>
         <AppContainer>
             <HeaderContainer>
                 <Header />
             </HeaderContainer>
             <GalleryContainer>
-                {content.map((image) => {
-                  return <Main key={image.id} image={image} length={content.length} />
+                {content.map((image, index) => {
+                  return (
+                    <div key={index} style={{ display: index === currentIndex ? "block" : "none" }}>
+                        <Main image={image} />
+                    </div>
+                  )
                 })}
             </GalleryContainer>
-            <ControlContainer>
-                <Control />
-                <ScrollPicture images={content} length={content.length} />
-            </ControlContainer>
             <FooterContainer>
                 <Footer />
             </FooterContainer>
         </AppContainer>
       </ThemeProvider>
-    </Provider>
   );
 }
 
