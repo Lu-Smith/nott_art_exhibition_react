@@ -7,8 +7,6 @@ export const Container = styled.div`
     justify-content: center;
     padding: 30px;
     border-radius: 20px;
-    border: 10px solid black;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); 
 
     div {
         line-height: 30px;

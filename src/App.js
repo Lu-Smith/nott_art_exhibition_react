@@ -8,12 +8,14 @@ import { ThemeProvider } from 'styled-components';
 
 const theme = {
   light: {
-    primaryColor: 'white',
+    primaryColor: 'red',
     primaryText: 'black',
+    primaryBackground: 'white'
   },
   dark: {
-    primaryColor: 'black',
+    primaryColor: 'blue',
     primaryText: 'white',
+    primaryBackground: 'black'
   }
 }
 
@@ -39,7 +41,7 @@ function App() {
                 {content.map((image, index) => {
                   return (
                     <ImageContainer key={index} style={{ display: index === currentIndex ? "block" : "none" }}>
-                        <Main image={image} />
+                        <Main image={image} theme={theme} />
                     </ImageContainer>
                   )
                 })}
