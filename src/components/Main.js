@@ -8,7 +8,7 @@ const Main = (props) => {
 
       if (props.image.id === 1) {
           return (
-            <Container id={props.image.id} style={{background: "rgb(32, 38, 57)" , color: "white"}}>
+            <Container id={props.image.id} style={{background: "rgb(32, 38, 57, 0.2)" , color: "white"}}>
                 <Title>Search though time</Title>
                 <Gallery image={props.image}/>
             </Container>
@@ -21,7 +21,7 @@ const Main = (props) => {
           )
         } else {
           return (
-            <Container id={props.image.id} style={{background: "rgb(32, 38, 57)" , color: "white"}}>
+            <Container id={props.image.id} style={{background: "rgb(32, 38, 57, 0.2)" , color: "white"}}>
                 <Gallery image={props.image}/>              
             </Container>
           )
