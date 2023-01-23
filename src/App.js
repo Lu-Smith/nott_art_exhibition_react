@@ -8,17 +8,13 @@ import content from './helpers/imagesList';
 function App() {
 
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [rectangle1, setRectangle1] = useState(0);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentIndex((currentIndex + 1) % content.length);
-      setRectangle1("rectangle" + (currentIndex + 1) % content.length);
     }, 10000);
     return () => clearInterval(intervalId);
   }, [currentIndex]);
-
-  console.log(rectangle1);
 
   return (
       <AppContainer>
@@ -33,7 +29,6 @@ function App() {
                     </ImageContainer>
                   )
                 })}
-                <div className={rectangle1}></div>
             </GalleryContainer>s
             <FooterContainer>
                 <Footer />
