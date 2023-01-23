@@ -3,14 +3,14 @@ import { Image, Title, Container } from './styles/Gallery.styled';
 
 
 const Gallery = (props) => {
+
+  const rectangleNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
   return (
     <Container>
         <Image src={props.image.src} alt={props.image.alt} />
-        <div className='rectangle1'></div>
-        <div className='rectangle2'></div>
-        <div className='rectangle3'></div>
-        <div className='rectangle4'></div>
-        <div className='rectangle5'></div>
+        {rectangleNumber.map((number, index) => {
+          return <div className={"rectangle" + number} key={index}></div>
+        })}
         <Title>{props.image.title}</Title>
     </Container>
   )
