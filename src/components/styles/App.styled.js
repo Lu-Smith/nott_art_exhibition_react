@@ -31,7 +31,7 @@ export const slideRectangle1 = keyframes`
 `
 export const slideRectangle2 = keyframes`
   0% {
-    transform: translateX(-50%);
+    transform: translateX(-150%);
     opacity: 0;
   }
   50% {
@@ -58,7 +58,7 @@ export const GalleryContainer = styled.div`
     border: 1px solid rgb(63, 76, 119);
     position: relative;
     top: 450px;
-    left: -500px;
+    left: -1100px;
     animation: ${slideRectangle2} 8s ease-in-out;
     z-index: 1;
     }
@@ -70,8 +70,8 @@ export const GalleryContainer = styled.div`
     border: 2px solid white;
     position: relative;
     top: 150px;
-    left: -600px;
-    animation: ${slideRectangle1} 9s ease-in-out;
+    left: -1100px;
+    animation: ${slideRectangle1} 7s ease-in-out;
     z-index: 1;
     }
 
@@ -82,7 +82,7 @@ export const GalleryContainer = styled.div`
     border: 1px solid red;
     position: relative;
     top: 300px;
-    left: -650px;
+    left: -1100px;
     animation: ${slideRectangle2} 11s ease-in-out;
     z-index: 1;
     }
@@ -94,7 +94,7 @@ export const GalleryContainer = styled.div`
     border: 1px solid white;
     position: relative;
     top: 400px;
-    left: -550px;
+    left: -1100px;
     animation: ${slideRectangle2} 10s ease-in-out;
     z-index: 1;
     }
@@ -107,7 +107,7 @@ export const GalleryContainer = styled.div`
     border: 1px solid rgb(63, 76, 119);
     position: relative;
     top: 200px;
-    left: -600px;
+    left: -1100px;
     animation: ${slideRectangle1} 12s ease-in-out;
     z-index: 1;
     }
@@ -120,7 +120,7 @@ export const GalleryContainer = styled.div`
     border: 1px solid white;
     position: relative;
     top: 400px;
-    left: -550px;
+    left: -1100px;
     animation: ${slideRectangle2} 8s ease-in-out;
     z-index: 1;
     }
@@ -144,7 +144,7 @@ export const GalleryContainer = styled.div`
     border: 2px solid rgb(63, 76, 119);
     position: relative;
     top: 500px;
-    left: -500px;
+    left: -1100px;
     animation: ${slideRectangle2} 11s ease-in-out;
     z-index: 1;
     }
@@ -156,7 +156,7 @@ export const GalleryContainer = styled.div`
     border: 3px solid white;
     position: relative;
     top: 300px;
-    left: -600px;
+    left: -1100px;
     animation: ${slideRectangle1} 9s ease-in-out;
     z-index: 1;
     }
@@ -168,7 +168,7 @@ export const GalleryContainer = styled.div`
     border: 2px solid rgb(63, 76, 119);
     position: relative;
     top: 100px;
-    left: -600px;
+    left: -1100px;
     animation: ${slideRectangle2} 11s ease-in-out;
     z-index: 1;
     }
@@ -180,7 +180,7 @@ export const GalleryContainer = styled.div`
     border: 1px solid red;
     position: relative;
     top: 200px;
-    left: -500px;
+    left: -1100px;
     animation: ${slideRectangle1} 10s ease-in-out;
     z-index: 1;
     }
