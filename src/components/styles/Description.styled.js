@@ -1,4 +1,21 @@
-import styled from 'styled-components';
+import styled, { keyframes} from 'styled-components';
+
+export const slideStar1 = keyframes`
+  0% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+  `
+  export const slideStar2 = keyframes`
+  0% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(150deg);
+  }
+  `
 
 export const Container = styled.div`
     display: flex;
@@ -27,6 +44,7 @@ export const HalfStar1 = styled.div`
         position: absolute;
         top: 10px;
         left: 10px;
+        animation: ${slideStar1} 10s ease;
 `
 
 export const HalfStar2 = styled.div`
@@ -38,5 +56,6 @@ export const HalfStar2 = styled.div`
         transform: rotate(90deg);
         position: absolute;
         top: 13px;
-        left: 11px;
+        left: 10px;
+        animation: ${slideStar2} 10s ease;
 `
