@@ -25,7 +25,21 @@ export const slideRectangle1 = keyframes`
     opacity: 1;
   }
   100% {
-    transform: translateX(400%);
+    transform: translateX(600%);
+    opacity: 0;
+  }
+`
+export const slideRectangle2 = keyframes`
+  0% {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(700%);
     opacity: 0;
   }
 `
@@ -37,6 +51,18 @@ export const GalleryContainer = styled.div`
     align-content: center;
     justify-content: flex-start;
 
+    .rectangle0 {
+    width: 200px;
+    height: 350px;
+    border-radius: 15px;
+    border: 1px solid rgb(63, 76, 119);
+    position: relative;
+    top: 450px;
+    left: -500px;
+    animation: ${slideRectangle2} 8s ease-in-out;
+    z-index: 1;
+    }
+
     .rectangle1 {
     width: 300px;
     height: 250px;
@@ -45,7 +71,7 @@ export const GalleryContainer = styled.div`
     position: relative;
     top: 150px;
     left: -600px;
-    animation: ${slideRectangle1} 13s ease-in-out;
+    animation: ${slideRectangle1} 9s ease-in-out;
     z-index: 1;
     }
 
@@ -57,7 +83,7 @@ export const GalleryContainer = styled.div`
     position: relative;
     top: 300px;
     left: -650px;
-    animation: ${slideRectangle1} 13s ease-in-out;
+    animation: ${slideRectangle2} 11s ease-in-out;
     z-index: 1;
     }
 
@@ -69,7 +95,93 @@ export const GalleryContainer = styled.div`
     position: relative;
     top: 400px;
     left: -550px;
-    animation: ${slideRectangle1} 13s ease-in-out;
+    animation: ${slideRectangle2} 10s ease-in-out;
+    z-index: 1;
+    }
+
+    
+    .rectangle4 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid rgb(63, 76, 119);
+    position: relative;
+    top: 200px;
+    left: -600px;
+    animation: ${slideRectangle1} 12s ease-in-out;
+    z-index: 1;
+    }
+
+    
+    .rectangle5 {
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid white;
+    position: relative;
+    top: 400px;
+    left: -550px;
+    animation: ${slideRectangle2} 8s ease-in-out;
+    z-index: 1;
+    }
+
+    .rectangle6 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    border: 3px solid red;
+    position: relative;
+    top: 300px;
+    left: -700px;
+    animation: ${slideRectangle1} 10s ease-in-out;
+    z-index: 1;
+    }
+
+    .rectangle7 {
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid rgb(63, 76, 119);
+    position: relative;
+    top: 500px;
+    left: -500px;
+    animation: ${slideRectangle2} 11s ease-in-out;
+    z-index: 1;
+    }
+
+    .rectangle8 {
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    border: 3px solid white;
+    position: relative;
+    top: 300px;
+    left: -600px;
+    animation: ${slideRectangle1} 9s ease-in-out;
+    z-index: 1;
+    }
+
+    .rectangle9 {
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid rgb(63, 76, 119);
+    position: relative;
+    top: 100px;
+    left: -600px;
+    animation: ${slideRectangle2} 11s ease-in-out;
+    z-index: 1;
+    }
+
+    .rectangle10 {
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    border: 1px solid red;
+    position: relative;
+    top: 200px;
+    left: -500px;
+    animation: ${slideRectangle1} 10s ease-in-out;
     z-index: 1;
     }
 `

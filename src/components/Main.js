@@ -15,7 +15,7 @@ const Main = (props) => {
           )
         } else if (props.image.id % 2 === 0) {
           return (
-            <Container id={props.image.id} style={{background: "black" , color: "white"}}>
+            <Container id={props.image.id} style={{background: "transparent" , color: "white"}}>
                 <Description description={props.image.description} /> 
             </Container>
           )
