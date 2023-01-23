@@ -7,11 +7,36 @@ export const Container = styled.div`
     justify-content: center;
     padding: 30px;
     border-radius: 20px;
+    position: relative;
 
-    div {
+    .description {
         line-height: 30px;
         font-style: italic;
         font-weight: 500;
         font-size: 20px
     }
+  
+`
+export const HalfStar1 = styled.div`
+        width: 0;
+        height: 0;
+        border-right: 10px solid transparent;
+        border-bottom: 15px solid White;
+        border-left: 10px solid transparent;
+        transform: rotate(30deg);
+        position: absolute;
+        top: 10px;
+        left: 10px;
+`
+
+export const HalfStar2 = styled.div`
+        width: 0;
+        height: 0;
+        border-right: 10px solid transparent;
+        border-bottom: 15px solid white;
+        border-left: 10px solid transparent;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 13px;
+        left: 11px;
 `
