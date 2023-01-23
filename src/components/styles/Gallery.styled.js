@@ -113,7 +113,7 @@ export const Container = styled.div`
     width: 180px;
     height: 60px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
-    border: 4px solid rgba(250, 250, 250, 0.5);
+    border: 4px solid rgba(250, 0, 0, 0.5);
     animation: ${slideRectangle2} 10s ease;
 }
 
@@ -143,10 +143,10 @@ export const Container = styled.div`
     position: absolute;
     left: 0;
     top: 332px;
-    width: 150px;
+    width: 80px;
     height: 60px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
-    border: 4px solid blue;
+    border: 4px solid rgba(63, 76, 119, 0.5);
     animation: ${slideRectangle1} 10s ease;
     }
 
@@ -154,10 +154,10 @@ export const Container = styled.div`
     position: absolute;
     left: 0;
     top: 388px;
-    width: 200px;
+    width: 150px;
     height: 60px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
-    border: 4px solid rgba(250, 250, 250, 0.5);
+    border: 4px solid rgba(63, 76, 119, 0.5);
     animation: ${slideRectangle2} 10s ease;
     }
 
@@ -165,10 +165,10 @@ export const Container = styled.div`
     position: absolute;
     left: 0;
     top: 444px;
-    width: 300px;
+    width: 250px;
     height: 60px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
-    border: 4px solid rgba(250, 250, 250, 0.5);
+    border: 4px solid rgba(63, 76, 119, 0.5);
     animation: ${slideRectangle1} 10s ease;
 }
 
@@ -187,7 +187,7 @@ export const Container = styled.div`
     position: absolute;
     left: 0;
     top: 556px;
-    width: 100px;
+    width: 170px;
     height: 60px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
     border: 4px solid rgba(250, 250, 250, 0.5);
@@ -198,7 +198,7 @@ export const Container = styled.div`
     position: absolute;
     left: 0;
     top: 612px;
-    width: 150px;
+    width: 180px;
     height: 60px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
     border: 4px solid rgba(250, 250, 250, 0.5);
@@ -220,10 +220,10 @@ export const Container = styled.div`
     position: absolute;
     left: 0;
     top: 724px;
-    width: 300px;
+    width: 240px;
     height: 40px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%);
-    border: 4px solid rgba(63, 76, 119, 0.5);
+    border: 4px solid rgba(250, 250, 250, 0.5);
     animation: ${slideRectangle2} 10s ease;
 }
 
@@ -245,7 +245,7 @@ export const Container = styled.div`
     width: 250px;
     height: 60px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
-    border: 4px solid rgba(250, 0, 0, 0.5);
+    border: 4px solid rgba(250, 250, 250, 0.5);
     border-radius: 15px;
     animation: ${slideRectangle4} 10s ease;
     }
@@ -254,7 +254,7 @@ export const Container = styled.div`
     position: absolute;
     left: 200px;
     top: 108px;
-    width: 200px;
+    width: 230px;
     height: 60px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
     border: 4px solid rgba(250, 250, 250, 0.5);
@@ -265,7 +265,7 @@ export const Container = styled.div`
     position: absolute;
     left: 200px;
     top: 164px;
-    width: 100px;
+    width: 180px;
     height: 60px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
     border: 4px solid rgba(250, 250, 250, 0.5);
@@ -276,7 +276,7 @@ export const Container = styled.div`
     position: absolute;
     left: 200px;
     top: 220px;
-    width: 200px;
+    width: 170px;
     height: 60px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
     border: 4px solid rgba(250, 250, 250, 0.5);
