@@ -33,6 +33,39 @@ export const slideRectangle2 = keyframes`
   }
 `
 
+export const slideRectangle3 = keyframes`
+  0% {
+    transform: translateX(-280%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(320%);
+    opacity: 0;
+  }
+`
+export const slideRectangle4 = keyframes`
+  0% {
+    transform: translateX(600%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  `
+
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
@@ -44,174 +77,316 @@ export const Container = styled.div`
     position: absolute;
     left: 0;
     top: 0;
-    width: 300px;
+    width: 250px;
     height: 60px;
-    background: linear-gradient(180deg, rgb(0, 0, 0, 0.5) 20%, rgb(63, 76, 119, 0.5) 60.2%, rgb(0, 0, 0, 0.5) 80%);
-    border-bottom: 4px solid rgb(250, 250, 250, 0.5);
-    border-top: 4px solid rgb(250, 250, 250, 0.5);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgba(250, 250, 250, 0.5);
     animation: ${slideRectangle1} 10s ease;
 }
 
 .rectangle2 {
     position: absolute;
     left: 0;
-    top: 56px;
+    top: 52px;
     width: 300px;
     height: 60px;
-    background: linear-gradient(180deg, rgb(0, 0, 0, 0.5) 20%, rgb(63, 76, 119, 0.5) 60.2%, rgb(0, 0, 0, 0.5) 80%);
-    border-bottom: 4px solid rgb(250, 250, 250, 0.5);
-    border-top: 4px solid rgb(250, 250, 250, 0.5);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgba(250, 250, 250, 0.5);
     animation: ${slideRectangle2} 10s ease;
     }
 
 .rectangle3 {
     position: absolute;
     left: 0;
-    top: 112px;
-    width: 300px;
+    top: 108px;
+    width: 130px;
     height: 60px;
-    background: linear-gradient(180deg, rgb(0, 0, 0, 0.5) 20%, rgb(63, 76, 119, 0.5) 60.2%, rgb(0, 0, 0, 0.5) 80%);
-    border-bottom: 4px solid rgb(250, 250, 250, 0.5);
-    border-top: 4px solid rgb(250, 250, 250, 0.5);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgba(250, 250, 250, 0.5);
     animation: ${slideRectangle1} 10s ease;
     }
 
 .rectangle4 {
     position: absolute;
     left: 0;
-    top: 168px;
-    width: 200px;
+    top: 164px;
+    width: 180px;
     height: 60px;
-    background: linear-gradient(180deg, rgb(0, 0, 0, 0.5) 20%, rgb(63, 76, 119, 0.5) 60.2%, rgb(0, 0, 0, 0.5) 80%);
-    border-bottom: 4px solid rgb(250, 250, 250, 0.5);
-    border-top: 4px solid rgb(250, 250, 250, 0.5);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgba(250, 250, 250, 0.5);
     animation: ${slideRectangle2} 10s ease;
 }
 
 .rectangle5 {
     position: absolute;
     left: 0;
-    top: 224px;
-    width: 200px;
+    top: 220px;
+    width: 290px;
     height: 60px;
-    background: linear-gradient(180deg, rgb(0, 0, 0, 0.5) 20%, rgb(63, 76, 119, 0.5) 60.2%, rgb(0, 0, 0, 0.5) 80%);
-    border-bottom: 4px solid rgb(250, 250, 250, 0.5);
-    border-top: 4px solid rgb(250, 250, 250, 0.5);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgba(250, 250, 250, 0.5);
     animation: ${slideRectangle1} 10s ease;
 }
 
 .rectangle6 {
     position: absolute;
     left: 0;
-    top: 280px;
-    width: 300px;
+    top: 276px;
+    width: 220px;
     height: 60px;
-    background: linear-gradient(180deg, rgb(0, 0, 0, 0.5) 20%, rgb(63, 76, 119, 0.5) 60.2%, rgb(0, 0, 0, 0.5) 80%);
-    border-bottom: 4px solid rgb(250, 250, 250, 0.5);
-    border-top: 4px solid rgb(250, 250, 250, 0.5);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgba(63, 76, 119, 0.5);
     animation: ${slideRectangle2} 10s ease;
 }
 
 .rectangle7 {
     position: absolute;
     left: 0;
-    top: 336px;
-    width: 300px;
+    top: 332px;
+    width: 150px;
     height: 60px;
-    background: linear-gradient(180deg, rgb(0, 0, 0, 0.5) 20%, rgb(63, 76, 119, 0.5) 60.2%, rgb(0, 0, 0, 0.5) 80%);
-    border-bottom: 4px solid rgb(250, 250, 250, 0.5);
-    border-top: 4px solid rgb(250, 250, 250, 0.5);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid blue;
     animation: ${slideRectangle1} 10s ease;
     }
 
 .rectangle8 {
     position: absolute;
     left: 0;
-    top: 392px;
+    top: 388px;
     width: 200px;
     height: 60px;
-    background: linear-gradient(180deg, rgb(0, 0, 0, 0.5) 20%, rgb(63, 76, 119, 0.5) 60.2%, rgb(0, 0, 0, 0.5) 80%);
-    border-bottom: 4px solid rgb(250, 250, 250, 0.5);
-    border-top: 4px solid rgb(250, 250, 250, 0.5);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgba(250, 250, 250, 0.5);
     animation: ${slideRectangle2} 10s ease;
     }
 
 .rectangle9 {
     position: absolute;
     left: 0;
-    top: 448px;
-    width: 200px;
+    top: 444px;
+    width: 300px;
     height: 60px;
-    background: linear-gradient(180deg, rgb(0, 0, 0, 0.5) 20%, rgb(63, 76, 119, 0.5) 60.2%, rgb(0, 0, 0, 0.5) 80%);
-    border-bottom: 4px solid rgb(250, 250, 250, 0.5);
-    border-top: 4px solid rgb(250, 250, 250, 0.5);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgba(250, 250, 250, 0.5);
     animation: ${slideRectangle1} 10s ease;
 }
 
 .rectangle10 {
     position: absolute;
     left: 0;
-    top: 506px;
+    top: 502px;
     width: 300px;
     height: 60px;
-    background: linear-gradient(180deg, rgb(0, 0, 0, 0.5) 20%, rgb(63, 76, 119, 0.5) 60.2%, rgb(0, 0, 0, 0.5) 80%);
-    border-bottom: 4px solid rgb(250, 250, 250, 0.5);
-    border-top: 4px solid rgb(250, 250, 250, 0.5);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgba(250, 250, 250, 0.5);
     animation: ${slideRectangle2} 10s ease;
 }
 
 .rectangle11 {
     position: absolute;
     left: 0;
-    top: 560px;
-    width: 300px;
+    top: 556px;
+    width: 100px;
     height: 60px;
-    background: linear-gradient(180deg, rgb(0, 0, 0, 0.5) 20%, rgb(63, 76, 119, 0.5) 60.2%, rgb(0, 0, 0, 0.5) 80%);
-    border-bottom: 4px solid rgb(250, 250, 250, 0.5);
-    border-top: 4px solid rgb(250, 250, 250, 0.5);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgba(250, 250, 250, 0.5);
     animation: ${slideRectangle1} 10s ease;
 }
 
 .rectangle12 {
     position: absolute;
     left: 0;
-    top: 616px;
-    width: 200px;
+    top: 612px;
+    width: 150px;
     height: 60px;
-    background: linear-gradient(180deg, rgb(0, 0, 0, 0.5) 20%, rgb(63, 76, 119, 0.5) 60.2%, rgb(0, 0, 0, 0.5) 80%);
-    border-bottom: 4px solid rgb(250, 250, 250, 0.5);
-    border-top: 4px solid rgb(250, 250, 250, 0.5);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgba(250, 250, 250, 0.5);
     animation: ${slideRectangle2} 10s ease;
 }
 
 .rectangle13 {
     position: absolute;
     left: 0;
-    top: 672px;
-    width: 200px;
+    top: 668px;
+    width: 300px;
     height: 60px;
-    background: linear-gradient(180deg, rgb(0, 0, 0, 0.5) 20%, rgb(63, 76, 119, 0.5) 60.2%, rgb(0, 0, 0, 0.5) 80%);
-    border-bottom: 4px solid rgb(250, 250, 250, 0.5);
-    border-top: 4px solid rgb(250, 250, 250, 0.5);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgba(250, 250, 250, 0.5);
     animation: ${slideRectangle1} 10s ease;
 }
 
 .rectangle14 {
     position: absolute;
     left: 0;
-    top: 728px;
+    top: 724px;
     width: 300px;
     height: 40px;
-    background: linear-gradient(180deg, rgb(0, 0, 0, 0.5) 20%, rgb(63, 76, 119, 0.5) 60.2%);
-    border-top: 4px solid rgb(250, 250, 250, 0.5);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%);
+    border: 4px solid rgba(63, 76, 119, 0.5);
     animation: ${slideRectangle2} 10s ease;
+}
+
+.rectangle15 {
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 150px;
+    height: 60px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgba(250, 250, 250, 0.5);
+    animation: ${slideRectangle3} 10s ease;
+}
+
+.rectangle16 {
+    position: absolute;
+    left: 200px;
+    top: 52px;
+    width: 250px;
+    height: 60px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgba(250, 0, 0, 0.5);
+    border-radius: 15px;
+    animation: ${slideRectangle4} 10s ease;
+    }
+
+.rectangle17 {
+    position: absolute;
+    left: 200px;
+    top: 108px;
+    width: 200px;
+    height: 60px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgba(250, 250, 250, 0.5);
+    animation: ${slideRectangle3} 10s ease;
+    }
+
+.rectangle18 {
+    position: absolute;
+    left: 200px;
+    top: 164px;
+    width: 100px;
+    height: 60px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgba(250, 250, 250, 0.5);
+    animation: ${slideRectangle4} 10s ease;
+}
+
+.rectangle19 {
+    position: absolute;
+    left: 200px;
+    top: 220px;
+    width: 200px;
+    height: 60px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgba(250, 250, 250, 0.5);
+    animation: ${slideRectangle3} 10s ease;
+}
+
+.rectangle20 {
+    position: absolute;
+    left: 200px;
+    top: 276px;
+    width: 300px;
+    height: 60px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgba(63, 76, 119, 0.5);
+    animation: ${slideRectangle4} 10s ease;
+}
+
+.rectangle21 {
+    position: absolute;
+    left: 200px;
+    top: 332px;
+    width: 200px;
+    height: 60px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgba(250, 250, 250, 0.5);
+    animation: ${slideRectangle3} 10s ease;
+    }
+
+.rectangle22 {
+    position: absolute;
+    left: 200px;
+    top: 388px;
+    width: 100px;
+    height: 60px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgba(250, 250, 250, 0.5);
+    animation: ${slideRectangle4} 10s ease;
+    }
+
+.rectangle23 {
+    position: absolute;
+    left: 200px;
+    top: 444px;
+    width: 150px;
+    height: 60px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgba(250, 0, 0, 0.5);
+    animation: ${slideRectangle3} 10s ease;
+}
+
+.rectangle24 {
+    position: absolute;
+    left: 200px;
+    top: 502px;
+    width: 200px;
+    height: 60px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgba(63, 76, 119, 0.5);
+    animation: ${slideRectangle4} 10s ease;
+}
+
+.rectangle25 {
+    position: absolute;
+    left: 200px;
+    top: 556px;
+    width: 300px;
+    height: 60px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgb(250, 250, 250, 0.5);
+    animation: ${slideRectangle3} 10s ease;
+}
+
+.rectangle26 {
+    position: absolute;
+    left: 200px;
+    top: 612px;
+    width: 100px;
+    height: 60px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgb(250, 250, 250, 0.5);
+    animation: ${slideRectangle4} 10s ease;
+}
+
+.rectangle27 {
+    position: absolute;
+    left: 200px;
+    top: 668px;
+    width: 200px;
+    height: 60px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%, rgba(0, 0, 0, 0.5) 80%);
+    border: 4px solid rgb(250, 250, 250, 0.5);
+    animation: ${slideRectangle3} 10s ease;
+}
+
+.rectangle28 {
+    position: absolute;
+    left: 200px;
+    top: 724px;
+    width: 300px;
+    height: 40px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 20%, rgba(63, 76, 119, 0.5) 60.2%);
+    border-top: 4px solid rgb(250, 250, 250, 0.5);
+    animation: ${slideRectangle4} 10s ease;
 }
 `
 export const Image = styled.img`
-    width: 280px;
+    width: 320px;
     border-radius: 20px;
-    border: 10px solid black;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border: 8px solid white;
+    box-shadow: 3px 3px 10px rgba(250, 250, 250, 0.5);
     z-index: 99;
 `
 export const Title = styled.h3`

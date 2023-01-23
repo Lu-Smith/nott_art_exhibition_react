@@ -21,7 +21,7 @@ const Main = (props) => {
           )
         } else {
           return (
-            <Container id={props.image.id} style={{background: "rgb(32, 38, 57, 0.2)" , color: "white"}}>
+            <Container id={props.image.id} style={{background: "transparent" , color: "white"}}>
                 <Gallery image={props.image}/>              
             </Container>
           )
