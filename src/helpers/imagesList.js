@@ -4,6 +4,12 @@ import Nott3 from '../images/The Battle of Endless Seas by Luna Smith.jpg';
 import Nott4 from '../images/The Soothing Wind of Longing by Luna Smith.jpg';
 import Nott5 from '../images/Dreams of a Future Self by Luna Smith.jpg';
 
+import Nott6 from '../images/The Blood of the Silent Unicorn by Luna Smith.jpg';
+import Nott7 from '../images/Breathe of the Invisible Beast by Luna Smith.jpg';
+import Nott8 from '../images/The Flame of the Eternal Triangle by Luna Smith.jpg';
+import Nott9 from '../images/The Scale of the Blue Dragon by Luna Smith.jpg';
+import Nott10 from '../images/The Heartbeat of the Raging Cyclone by Luna Smith.jpg';
+
 const content = [
     {
         id: 1,
@@ -11,7 +17,6 @@ const content = [
         alt: "Nott art collection - an oil painitng from Nott collection by Luna Smith",
         description: [],
         src: Nott1,
-        name: "page0"
     },
     {
         id: 2,
@@ -19,7 +24,6 @@ const content = [
         alt: "",
         description: ["We live in the endless loop of wonders."],
         src: "",
-        name: "page1"
     },
     {
         id: 3,
@@ -27,7 +31,6 @@ const content = [
         alt: "The Warrior of Shattered Tears - an oil painitng from Nott collection by Luna Smith",
         description:  [],
         src: Nott1,
-        name: "page2"
     },
     {
         id: 4,
@@ -54,7 +57,6 @@ const content = [
                        "For the bricks of life will never die,",
                        "And pave the way to a brighter day."],
         src: "",
-        name: "page3"
     },
     {
         id: 5,
@@ -62,7 +64,6 @@ const content = [
         alt: "The Battle of Endless Seas - an oil painitng from Nott collection by Luna Smith",
         description: [],
         src: Nott3,
-        name: "page4"
     },
     {
         id: 6,
@@ -85,7 +86,6 @@ const content = [
                        "For the future awaits,",
                        "In the Endless Seas of Time and space."],
         src: "",
-        name: "page5"
     },
     {
         id: 7,
@@ -93,7 +93,6 @@ const content = [
         alt: "The Soothing Wind of Longing - an oil painitng from Nott collection by Luna Smith",
         description: [],
         src: Nott4,
-        name: "page6"
     },
     {
         id: 8,
@@ -116,7 +115,6 @@ const content = [
                       "For the Soothing Wind of Longing,",
                       "Brings us to where we belong.",],
         src: "",
-        name: "page7"
     },
     {
         id: 9,
@@ -124,7 +122,6 @@ const content = [
         alt: "Awakening from the Sleep of Fear- an oil painitng from Nott collection by Luna Smith",
         description: [],
         src: Nott2,
-        name: "page8"
     },
     {
         id: 10,
@@ -144,7 +141,6 @@ const content = [
                       "With each step, a new world is in sight."
                     ],
         src: "",
-        name: "page9"
     },
     {
         id: 11,
@@ -152,7 +148,6 @@ const content = [
         alt: "Dreams of a Future Self - an oil painitng from Nott collection by Luna Smith",
         description: [],
         src: Nott5,
-        name: "page10"
     },
     {
         id: 12,
@@ -175,8 +170,143 @@ const content = [
                       "For the future is ours to see,",
                       "And it's a future that is bright."],
         src: "",
-        name: "page11"
-    }
+    },
+    {
+        id: 13,
+        title: "The Blood of the Silent Unicorn",
+        alt: "The Blood of the Silent Unicorn - an oil painitng from Nott collection by Luna Smith",
+        description: [],
+        src: Nott6,
+    },
+    {
+        id: 14,
+        title: "",
+        alt: "",
+        description: ["The Blood of the Silent Unicorn,",
+                      "a mystery of ancient lore,",
+                      "a symbol of purity and grace,",
+                      "that we should never ignore.",
+                      "Pure-blooded creature shining bright,",
+                      "and flows through the veins of the past,",
+                      "With a horn that glows like a sword,",
+                      "runs wild, through the Universe, old.",
+                      "But it's the blood that's the treasure,",
+                      "that we all seek to find,",
+                      "for it holds the power of healing,",
+                      "and the magic of the mind.",
+                      "As a reminder of the battle, forever known,",
+                      "the blood that flowed, turned to stone.",
+                      "Let it guide us through the night,",
+                      "the source of all that's right."],
+        src: "",
+    },
+    {
+        id: 15,
+        title: "Breathe of the Invisible Beast",
+        alt: "Breathe of the Invisible Beast - an oil painitng from Nott collection by Luna Smith",
+        description: [],
+        src: Nott7,
+    },
+    {
+        id: 16,
+        title: "",
+        alt: "",
+        description: ["Breathe of the Invisible Beast,",
+                      "mysterious, powerful, and wild,",
+                      "which comes and goes discrete,",
+                      "creating start dust and smiles of a child.",
+                      "It moves through the hearts,",
+                      "whispers through mighty arts,",
+                      "a symphony of life and death,",
+                      "a pure melody in your breath.",
+                      "It cuddles, swirls, and passes by,",
+                      "Gives life the strength to grow,",
+                      "it shapes the land and sky,",
+                      "a force that's always on the go.",
+                      "A never-ending feast,",
+                      "we can't see it with our eyes,",
+                      "it's a breath of the invisible beast,",
+                      "that keeps our world alive.",
+                   ],
+        src: "",
+    },
+    {
+        id: 17,
+        title: "The Flame of the Eternal Triangle",
+        alt: "The Flame of the Eternal Triangle - an oil painitng from Nott collection by Luna Smith",
+        description: [],
+        src: Nott8,
+    },
+    {
+        id: 18,
+        title: "",
+        alt: "",
+        description: ["The Flame of the Eternal Triangle,",
+                      "burns bright and never dies.",
+                      "The catcher of the world right angle,",
+                      "that reaches up to the skies.",
+                      "The fire that's fueled by love urge,",
+                      "and the bond that holds us tight,",
+                      "flames that shimmer and merge,",
+                      "in the dark and in the light.",
+                      "The future, the present, and the past",
+                      "create endless sides of eternal life.",
+                      "It's a thing of beauty and strength,",
+                      "that's been here since the world unfurled."],
+        src: "",
+    },
+    {
+        id: 19,
+        title: "The Heartbeat of the Raging Cyclone",
+        alt: "The Heartbeat of the Raging Cyclone - an oil painitng from Nott collection by Luna Smith",
+        description: [],
+        src: Nott9,
+    },
+    {
+        id: 20,
+        title: "",
+        alt: "",
+        description: ["The Heartbeat of the Raging Cyclone,",
+                      "travels through the unknown,",
+                      "a cosmic dance in the dark,",
+                      "planets and galaxies hidden ark.",
+                      "A storm of dust, energy, and souls,",
+                      "a symphony of motion in black holes.",
+                      "A lonely heartbeat in the void,",
+                      "of the living things it employs.",
+                      "Let bond with the cyclone heartbeat",
+                      "a tempestuous rhythm, wild and vast,",
+                      "the remainder of the universe's loveseat,",
+                      "the power of the cosmic future and past."],
+        src: "",
+    },
+    {
+        id: 21,
+        title: "The Scale of the Blue Dragon",
+        alt: "The Scale of the Blue Dragon - an oil painitng from Nott collection by Luna Smith",
+        description: [],
+        src: Nott10,
+    },
+    {
+        id: 22,
+        title: "",
+        alt: "",
+        description: ["The Scale of the Blue Dragon,",
+                      "the universe's hidden gem,",
+                      "a planet, small and fragile,",
+                      "that's part of a larger realm.",
+                      "It spins and orbits, ",
+                      "in the endless blue,",
+                      "a dance of gravity and time, ",
+                      "that's always new.",
+                      "The blue dragon holds in its grasp,",
+                      "a speck of dust among the stars,",
+                      "that's a part of the cosmic clasp,",
+                      "a treasure of the universe holding life."],
+        src: "",
+    },
+    
+
 ]
 
 export default content
