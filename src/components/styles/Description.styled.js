@@ -25,14 +25,10 @@ export const Container = styled.div`
     padding: 30px;
     border-radius: 20px;
     position: relative;
-
-    .description {
-        line-height: 30px;
-        font-style: italic;
-        font-weight: 500;
-        font-size: 20px
-    }
-  
+    line-height: 30px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
 `
 export const HalfStar1 = styled.div`
         width: 0;

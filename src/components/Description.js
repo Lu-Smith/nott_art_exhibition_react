@@ -8,9 +8,9 @@ const Description = (props) => {
         if (index === 3 || index === 7 || index === 11 || index === 15) {
           return (
             <>
-          <div key={index} className="description">{description}</div>
-          <br/>
-          </>
+              <div key={index}>{description}</div>
+              <br/>
+            </>
           )
         } else {
           return <div key={index}>{description}</div>
