@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, HalfStar1, HalfStar2 } from './styles/Description.styled'
+import { Container, HalfStar1, HalfStar2, HalfStar3, HalfStar4, HalfStar5, HalfStar6 } from './styles/Description.styled'
 
 const Description = (props) => {
   return (
@@ -18,6 +18,10 @@ const Description = (props) => {
       })}
       <HalfStar1 />
       <HalfStar2 />
+      <HalfStar3 />
+      <HalfStar4 />
+      <HalfStar5 />
+      <HalfStar6 />
     </Container>
   )
 }
